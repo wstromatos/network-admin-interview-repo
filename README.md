@@ -12,7 +12,7 @@ Problem 1: Intermittent office connectivity issues!
 Help!  Our employees are reporting that pages are intermittently not loading.
 Sometimes the pages work, but other times Firefox reports 'We’re having trouble finding that site.' and Chrome reports '[the] server IP address could not be found.'
 
-Login into the Linux client machine and troubleshoot.
+Log into the Linux client machine and troubleshoot.
 Use the server IP and SSH key you were sent, username on all servers is ```ec2-user```.
 
 Fork this repo, create a branch, and create a problem1 directory.
@@ -23,7 +23,7 @@ Problem 2: New Printer
 
 Our facilities manager is installing a new printer and it needs to be added to DNS.
 This repo contains the DNS server Docker container source files.
-In your branch from problem 1 assign 10.4.7.19 to printer4.testroot.local.
+In your branch from problem 1 modify the config files to assign 10.4.7.19 to printer4.testroot.local.
 
 Problem 3: New VLAN
 -------------------
