@@ -33,3 +33,9 @@ This repo contains the config for our Zyxel firewall.
 The switches are already configured with VLAN5 on the LAG, we need you to add VLAN5 to the firewall.
 It is 10.0.5.0/24, should use 10.0.5.100-200 for DHCP with a 24 hour lease time, and only be allowed access to the internet.
 Commit your change to the same fork and branch as problem 1.
+
+Completing the sample
+=====================
+
+Please send us back a link to your branch which contains your commits.
+Thank you!
