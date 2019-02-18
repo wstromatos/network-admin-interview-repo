@@ -1,0 +1,22 @@
+$TTL	3600
+@	IN	SOA	testroot.local. root.testroot.local. (
+			      1		; Serial
+			 604800		; Refresh
+			   3600		; Retry
+			2419200		; Expire
+			   3600 )	; Negative Cache TTL
+;
+
+testroot.local.		IN	NS	ns1.testroot.local.
+testroot.local.		IN	NS	ns2.testroot.local.
+testroot.local.		IN	NS	ns3.testroot.local.
+
+; Nameservers
+ns1.testroot.local.	IN 	A	10.0.0.10
+ns2.testroot.local.	IN 	A	10.0.0.11
+ns3.testroot.local.	IN 	A	10.0.0.12
+
+; Printers
+printer1.testroot.local.	IN A	10.0.1.200
+printer2.testroot.local.	IN A	10.1.4.147
+printer3.testroot.local.	IN A	10.9.7.34
