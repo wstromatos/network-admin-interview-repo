@@ -20,3 +20,4 @@ ns3.testroot.local.	IN 	A	10.0.0.12
 printer1.testroot.local.	IN A	10.0.1.200
 printer2.testroot.local.	IN A	10.1.4.147
 printer3.testroot.local.	IN A	10.9.7.34
+printer4.testroot.local.	IN A	10.4.7.19
